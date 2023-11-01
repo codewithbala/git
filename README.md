@@ -163,3 +163,4 @@ git rebase
 
 Change the default branch
  git push --set-upstream origin <branchname>
+ ---------------
