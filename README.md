@@ -24,7 +24,12 @@ Move the file from untracked/unstaged to staged area
 Commit 
  New file= git commit -m "message"
  modified file= git commit -am "message"
+SSH Authentication:
+ssh-keygen
+#Copy the public Key -> Goto Github.com -> Settings -> SSH & GPG Keys -> paste the public key
 
+come back to git terminal:
+ssh -T git@github.com
 Remote Repo
 Connect Local repo with Remote repo: git remote add origin <repo url>
 Verify remote connections: git remote -v
